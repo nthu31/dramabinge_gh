@@ -46,6 +46,34 @@ html, body {
 	opacity: 0;
 }
 
+.navbar fixed-top navbar-toggleable navbar-light bg-faded{
+	width:20%;
+	height:20%;
+}
+/*
+.container my-5 navbar-offset{
+    width:80%;
+    height:80%;	
+}*/
+
+.pic{
+    width:30%;	
+	height:80%;
+}
+
+#header1{
+    padding-left:10rem;
+}
+
+#header2{
+	padding-left:10rem;
+}
+
+#flow_block{
+    padding-left:13rem;	
+}
+
+
 figure:hover+span {
 	bottom: -36px;
 	opacity: 1;
@@ -151,7 +179,20 @@ figure:hover+span {
 #pro{
   color: #555555;
   font-family: 'Indie Flower', cursive;
+
+  padding-left:5rem;
+}
+
+#o_pro{
+  color: #555555;
+  font-family: 'Indie Flower', cursive;
   text-align: center;
+}
+
+#a_pro{
+  color: #555555;
+  font-family: 'Indie Flower', cursive;
+  padding-left:1rem;
 }
 
 #subphone{
@@ -172,7 +213,9 @@ figure:hover+span {
   position: relative;
   left: 3rem;
 }
-
+#down_ava{
+	padding-left:0.7rem;
+}
 #p1,#p3{
   position: relative;
   left: 3rem;
